@@ -7,8 +7,22 @@ public class MethodOverLoadingTest {
      sum(23243, 435435);
      sum(12.6, 10.1);
      isDisplayed(true);
+
+     register("siva@yopmail.com", "Siva", 13243249);
+     register("UK", "PR13QY", "JNTU");
     }
 
+    public static void register(String email, String lastName, int phone){
+
+    }
+
+    public static void register(String email, String lastName, String firstName, int phone){
+
+    }
+
+    public static void register(String address, String pin, String landmark){
+
+    }
 
     public void total(int a, int b){
 
