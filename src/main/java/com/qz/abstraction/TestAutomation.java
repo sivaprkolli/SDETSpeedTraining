@@ -1,7 +1,5 @@
 package com.qz.abstraction;
 
-import jdk.incubator.vector.VectorOperators;
-
 public class TestAutomation extends AbstractImplementation{
     public static void main(String[] args) {
         TestAutomation testAutomation = new TestAutomation();
